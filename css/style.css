@@ -81,3 +81,40 @@ button {
   justify-content: center;
   gap: 200px;
 }
+
+.impinfo img {
+  max-width: 200px;
+  border-radius: 10px;
+  
+}
+
+.important {
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  font-family: 'Mr Dafoe';
+}
+
+.middle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.portfolio {
+  text-align: center;
+  color: rosybrown;
+}
+
+.impinfo {
+  max-width: 200px;
+}
+
+.portcont {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.middle p {
+  font-size: 12px;
+}
