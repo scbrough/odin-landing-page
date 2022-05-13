@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 * {
   font-family: Roboto, sans-serif;
@@ -18,7 +19,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px;
   flex-wrap: wrap;
 }
 
@@ -83,9 +83,11 @@ button {
 }
 
 .impinfo img {
-  max-width: 200px;
+  float: left;
+  height: 200px;
+  width: 200px;
+  object-fit: cover; 
   border-radius: 10px;
-  
 }
 
 .important {
@@ -105,10 +107,6 @@ button {
   color: rosybrown;
 }
 
-.impinfo {
-  max-width: 200px;
-}
-
 .portcont {
   display: flex;
   gap: 40px;
@@ -117,4 +115,11 @@ button {
 
 .middle p {
   font-size: 12px;
+  max-width: 200px;
+  font-family: 'Cedarville Cursive', cursive;;
+}
+
+.impinfo {
+  display: flex;
+  flex-direction: column;
 }
